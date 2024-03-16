@@ -2,11 +2,11 @@ version: '3.8'
 
 services:
   client:
-    build: ./client
+    build: ./Client
     ports:
       - "8081:8081"
 
   server:
-    build: ./server
+    build: ./Server
     ports:
       - "8080:8080"
